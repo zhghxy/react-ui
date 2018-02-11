@@ -1,0 +1,43 @@
+.swipe{
+    width:300px;
+    height:180px;
+    overflow: hidden;
+    position: relative;
+}
+    .swipe-items-container{
+        position: absolute;
+        
+        height:100%;
+    }
+        .swipe-item{
+            display: inline-block;
+            margin:0;
+            padding:0;           
+            width:300px;
+            height:180px;
+        }
+  
+        .swipe-indicators{
+         -webkit-box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+                 box-sizing: border-box;
+            width:10px;
+            height:10px;
+            border-radius: 100%;
+            background-color: rgba(255,255,255,0.5);
+            margin-left:10px;
+            margin-right:10px;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .point{
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .swipe-indicators-list{
+            margin:0 auto 15px auto;
+            height:15px;
+            position:relative;
+            bottom:30px;
+            width:105px;
+        }
