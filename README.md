@@ -1,6 +1,6 @@
 # react-轮播
 基于react的轮播组件
-#安装
+# 安装
 npm install
 # 用法
 见src/main.jsx  
