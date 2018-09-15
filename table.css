@@ -1,0 +1,64 @@
+html{
+    height:800px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.date-picker{
+    position: relative;
+    height:30px;
+    width:250px;
+    padding:5px 8px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    top:500px;
+}
+
+.date-picker span{
+
+    line-height: 30px;
+}
+.date-picker input{
+    border:0px;
+    width:200px;
+    line-height: 30px;
+    margin-left:8px;
+}
+.date-picker input:focus+.picker{
+    display:block;
+}
+.date-picker img{
+    width:20px;
+    height:20px;
+}
+.picker{
+    position:absolute;
+    
+    width:250px;
+    text-align:center;
+    border:1px solid #ddd;
+    box-shadow:0px 1px 3px 3px rgba(220,220,220,0.5);
+}
+.picker-hide{
+    display:none;
+}
+    .picker-header{
+        line-height: 30px;
+    }
+        .picker-header a{
+            margin:0 5px;
+        }
+    .picker table{
+        width:100%;
+        vertical-align: middle;
+    }
+    .picker .disabled{
+        color:#ccc;
+    }
+        .picker tbody tr td{
+            margin:0 5px;
+            line-height:28px;
+            cursor:pointer;
+        }
+    
